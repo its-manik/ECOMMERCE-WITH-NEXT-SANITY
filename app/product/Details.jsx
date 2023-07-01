@@ -27,6 +27,7 @@ const Details = ({ product, products }) => {
               src={image[imgIndex].asset.url}
               width={400}
               height={400}
+              alt="product image"
             />
           </div>
           <div className="small-images-container">
