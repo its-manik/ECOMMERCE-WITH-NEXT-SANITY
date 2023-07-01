@@ -1,5 +1,5 @@
 import { client, urlFor } from "@/lib/client";
-import Details from "../details";
+import Details from "../Details";
 async function getProducts(slug) {
   const productQuery = `*[_type == "product" && slug.current == '${slug}'][0] {
     ...,
